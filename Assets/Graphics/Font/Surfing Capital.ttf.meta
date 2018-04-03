@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 164c2c68f7dae4037a611d8cb277d969
+timeCreated: 1497439298
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Surfing Capital
+  fontNames:
+  - Surfing Capital
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

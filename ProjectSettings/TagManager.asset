@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ink
+  - Blob
+  - Plant
+  - Fire
+  - Node
+  - ColorDot
+  - LargeInkling
+  - TrailTrap
+  - InkAccelerator
+  - InkBouncer
+  - Boid
+  - TrailCollider
+  - ColorProjectile
+  - InkShooter
+  - InkBomber
+  - Splat
+  - TouchInk
+  - StarSpread
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - EffectLayer
+  - BackGround
+  - Player
+  - Boid
+  - left
+  - right
+  - Block
+  - ColorDots
+  - Wave
+  - LargeInkling
+  - TextureMask
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 954147959
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
