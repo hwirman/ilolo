@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GameManager : MonoBehaviour
+public class AnalyseManager : MonoBehaviour
 {
 
-    public static EventDispatcher eventDispatcher;
-    public static GameManager access;
+    public static AnalyseManager access;
     public GameObject player;
     public InklingController inklingcontroller;
     public GuideBehavior guideBehavior;
@@ -28,7 +27,6 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         access = this;
-        eventDispatcher = FindObjectOfType<EventDispatcher>();
     }
 
     void Start()
@@ -36,8 +34,8 @@ public class GameManager : MonoBehaviour
         player = GameObject.Find("Inkling");
         inklingcontroller = player.GetComponent<InklingController>();
         guideBehavior = FindObjectOfType<GuideBehavior>();
-        eventDispatcher.getEventHandler("playerAttack", new EventHandler(print));
         StartCoroutine(DetectPersona());
+        InvokeRepeating("TakePicture", 5, 20);
     }
     IEnumerator DetectPersona()
     {
@@ -80,6 +78,24 @@ public class GameManager : MonoBehaviour
                 spawnBoidTextCD = 15;
             }
         }
+    }
+
+    void TakePicture()
+    {
+        int index = PlayerPrefs.GetInt("screenshotIndex");
+        if (index < 6)
+        {
+            index++;
+            PlayerPrefs.SetInt("screenshotIndex", index);
+            PlayerPrefs.SetInt("screenshotNum", Mathf.Max(PlayerPrefs.GetInt("screenshotNum"), index));
+        }
+        else
+        {
+            index = 1;
+            PlayerPrefs.SetInt("screenshotIndex", index);
+        }
+        UnityEngine.ScreenCapture.CaptureScreenshot(index.ToString() + "screenshot.png");
+
     }
 
 }

@@ -76,7 +76,7 @@ public class ElementBehavior : MonoBehaviour
         //rig.MovePosition(transform.position + transform.up * Time.deltaTime * flockingSpeed);
         transform.Translate(0, Time.deltaTime * flockingSpeed, 0);
         CDCoolDown();
-        if (GameManager.access.persona == Persona.aggressive)
+        if (AnalyseManager.access.persona == Persona.aggressive)
         {
             maxFlockingSpeed = 25;
         }

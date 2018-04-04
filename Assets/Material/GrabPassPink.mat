@@ -55,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RampTex:
-        m_Texture: {fileID: 2800000, guid: a41cf8c3bb2654db7967d64f4fb313d4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2293195fae27a448bb575b3165cc1744, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -72,11 +72,11 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _Speed: 0.2900949
+    - _Speed: 0.32300508
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _filterR: 0.95
+    - _filterR: 0.981
     m_Colors:
     - _Color: {r: 1, g: 0.9411765, b: 0.7372549, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -107,7 +107,7 @@ public class InklingController : MonoBehaviour
         {
             speed = 0;
             stayCD = Mathf.Max(0, stayCD + Time.fixedDeltaTime);
-            GameManager.access.quietScore += Time.fixedDeltaTime;
+            AnalyseManager.access.quietScore += Time.fixedDeltaTime;
         }
         else
         {
@@ -235,7 +235,7 @@ public class InklingController : MonoBehaviour
         waveSPL.color = waveColor;
         waveSPR.color = waveColor;
 
-        if (GameManager.access.persona == Persona.aggressive)
+        if (AnalyseManager.access.persona == Persona.aggressive)
         {
             baseSpeed = 25;
         }

@@ -6,32 +6,35 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scene/Menu.unity
+    path: 
     guid: fa92f2a7563ea4ec187ad05d75d7824d
   - enabled: 0
-    path: Assets/Scene/Login.unity
+    path: 
     guid: c6da1a1b50d8a46f1bf5a71cf42caf5e
   - enabled: 1
-    path: Assets/Scene/ShaderTesting.unity
+    path: Assets/Scene/Start.unity
     guid: 7a9b75c99c9cc41c196f9a0096d8ca58
   - enabled: 0
-    path: Assets/Scene/CharacterCreation.unity
+    path: 
     guid: 88425d5d8d3b948c491b3065e5ea4da5
   - enabled: 0
-    path: Assets/Scene/PlayScene.unity
+    path: 
     guid: 7b0fb943ead9f4621999981e6305be79
   - enabled: 0
-    path: Assets/Scene/RigSelection.unity
+    path: 
     guid: 6a9c8c3dc8f824c4e90fef8c724950df
   - enabled: 1
-    path: Assets/Scene/BrushTesting.unity
+    path: Assets/Scene/CharacterCreation.unity
     guid: 8f222ff41547c40d383143def73e9a77
   - enabled: 1
-    path: Assets/Scene/SelfExploration.unity
+    path: Assets/Scene/PlayScene.unity
     guid: 31c54842c3d9346e58797b325a2a92b4
   - enabled: 0
-    path: Assets/Scene/OpenWorldDot.unity
+    path: 
     guid: 10497be2a622c45a98b1733410d8818a
   - enabled: 1
     path: Assets/Scene/ColorChoosing.unity
     guid: 6e9adb5a0d7e7400ebf93a665f54dca0
+  - enabled: 1
+    path: Assets/Scene/Gallery.unity
+    guid: b891042add2064bfab480ccd64fc441a

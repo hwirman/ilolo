@@ -156,7 +156,7 @@ public class GuideBehavior : MonoBehaviour
                         speedCount += 1;
                     }
                     avgSpeed = sum / speedCount;
-                    GameManager.access.aggressiveScore = avgSpeed;
+                    AnalyseManager.access.aggressiveScore = avgSpeed;
                 }
 
             }

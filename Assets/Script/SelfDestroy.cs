@@ -9,7 +9,7 @@ public class SelfDestroy : MonoBehaviour
     void Start()
     {
         float size = transform.localScale.x;
-        if (GameManager.access.persona == Persona.aggressive)
+        if (AnalyseManager.access.persona == Persona.aggressive)
         {
             transform.localScale = new Vector3(size * 2f, size * 2f, size * 2f);
         }
